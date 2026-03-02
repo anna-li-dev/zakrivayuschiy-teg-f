@@ -157,6 +157,7 @@
   line-height: 0.9;
   background-color: var(--bg-color);
   transition: box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .button::before {
@@ -193,6 +194,7 @@
   font-size: var(--button-font-size);
   line-height: 0.9;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
