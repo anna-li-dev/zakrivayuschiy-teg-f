@@ -29,7 +29,7 @@
 
 .header__logo {
   color: var(--main-color);
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-size: var(--header-logo-size);
   line-height: 1;
   text-transform: uppercase;
@@ -37,7 +37,7 @@
 
 .header__title {
   color: var(--main-color);
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-size: var(--heading);
   line-height: 1;
   text-transform: uppercase;
@@ -75,7 +75,7 @@
   right: 25px;
   z-index: 1;
   opacity: 0.5;
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-size: 14px;
   line-height: 1;
   text-transform: uppercase;
@@ -149,7 +149,7 @@
   position: relative;
   overflow: hidden;
   color: var(--bg-color);
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-size: var(--button-font-size);
   line-height: 0.9;
   background-color: var(--bg-color);
@@ -187,7 +187,7 @@
 .card__icon-button {
   border: 2px solid transparent;
   padding: 0;
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-size: var(--button-font-size);
   line-height: 0.9;
   background-color: transparent;
@@ -311,7 +311,7 @@ body:has(.floppy-popup[open]) {
 }
 
 .floppy-popup__text {
-  font-family: var(--accent-font), monospace;
+  font-family: var(--accent-font), fantasy;
   font-size: var(--button-font-size);
   line-height: 1.5;
   text-transform: uppercase;
